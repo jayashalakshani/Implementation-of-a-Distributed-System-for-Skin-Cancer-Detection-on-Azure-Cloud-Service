@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skin Cancer Detection</title>
+        <link href="SF.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <h1>Skin Cancer Detection</h1>
+        <p>This web page allows you to upload an image of a skin lesion and receive a prediction from our skin cancer detection model.</p>
+        <form action="predict" method="POST" enctype="multipart/form-data">
+                <label>Upload Image</label>
+                <input type="file" name="image" accept="image/*">
+            <button type="submit">Predict</button>
+        </form>
+
+    </body>
+</html>
